@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-a {
-  font-size: 18px;
-}
-h1 {
-  font-size: 40px;
-}
-div{
-  padding-left:15px;
-  }
-
-</style>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
 <!--
  <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/others/GitHub-Mark-64px.png"/>
 -->
-<h1>Eilon Toledano</h1>
+<div class="page-container">
 
-  <div >
-<h2>my projects:</h2>
+<h1 class="title">Eilon Toledano</h1>
 
-<ul>
-<li>
-  <h3>remote control car</h3>
-  <span>code and equipment to build your own remote control car</span>  <br/>
-  <a href="https://github.com/eilon1996/car">link to repo</a><br/>
-  <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/car/car.png" width="550" height="300"/><br/><br/>
-</li> 
-                                                                                                             
-<li>  
-  <h3>chess game</h3>
-  <span>play chess with friends online or against the computer</span>  <br/>
-  <a href="https://github.com/eilon1996/chess">link to repo</a><br/>
-  <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/chess/chess+screen+shot.png" width="298" height="300"/><br/><br/>
-</li> 
-  
-<li>
-  <h3>easy order</h3>
-  <span>the code allow a compny with several branches & suppliers, to gather the order from each branch and split it to the matching suppliers. by creating an excel fill for each supllier</span><br/>
-  <a href="https://github.com/eilon1996/easy-order">link to repo</a><br/><br/><br/>
-</li>  
-  
-<li>
-  <h3>stock analysis</h3>
-  <span>Stock Analysis will help you find and compare stocks and other finance products from all USA finance products</span>  <br/>
-  <a href="https://github.com/eilon1996/stock-analysis">link to repo</a><br/>
-  <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/stocks/stock.png" width="510" height="300"/><br/><br/>
-</li>
- 
-<li> 
-  <h3>modular restaurant</h3>
-  <span>a dynamic website allow restaurant owners design there own website</span><br/>
-  <a href="https://github.com/eilon1996/modular-restaurant-frontend">frontend repo</a><br/>
-  <a href="https://github.com/eilon1996/modular-restaurant-backend">backend repo</a><br/>
-  <a href="https://modular-restaurant-yjos2woe7-eilon1996.vercel.app/home">the website</a><br/>
-  <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/modular-restaurant/front+page.png" width="342" height="300"/><br/><br/>
-</li>
-</ul>
-  
-  
-  <h2><a href="www.linkedin.com/in/eilont">linkedin</a></h2>
+
+
+<!-- Slider main container -->
+<div class="swiper">
+  <h2 >My Projects:</h2>
+  <!-- Additional required wrapper -->
+  <ul class="swiper-wrapper">
+    <!-- Slides -->
+  <li class="swiper-slide">
+    <div class="swiper-slide-repo-container">
+    <h3 class="single-repo-title">Remote Control Car</h3>
+    <span class="single-repo-sub-title">Code and equipment to build your own remote control car</span>  <br/>
+    <a class="repo-link" href="https://github.com/eilon1996/car">Link to Repo</a><br/>
+    <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/car/car.png" width="550" height="300"/><br/><br/>
+  </div>
+  </li> 
+                                                                                                               
+  <li class="swiper-slide">  
+    <div class="swiper-slide-repo-container">
+    <h3 class="single-repo-title">Chess Game</h3>
+    <span class="single-repo-sub-title">Play chess with friends online or against the computer</span>  <br/>
+    <a class="repo-link" href="https://github.com/eilon1996/chess">Link to Repo</a><br/>
+    <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/chess/chess+screen+shot.png" width="298" height="300"/><br/><br/>
+  </div>
+  </li> 
+    
+  <li class="swiper-slide">
+    <div class="swiper-slide-repo-container" style="padding: 1% 1%; margin-top: 10%">
+    <h3 class="single-repo-title">Easy Order</h3>
+    <span class="single-repo-sub-title">The code allow a compny with several branches & suppliers, to gather the order from each branch and split it to the matching suppliers. by creating an excel fill for each supllier</span><br/>
+    <a class="repo-link" href="https://github.com/eilon1996/easy-order">Link to Repo</a><br/><br/><br/>
+  </div>
+  </li>  
+    
+  <li class="swiper-slide">
+    <div class="swiper-slide-repo-container">
+    <h3 class="single-repo-title">Stock Analysis</h3>
+    <span class="single-repo-sub-title">Stock Analysis will help you find and compare stocks and other finance products from all USA finance products</span>  <br/>
+    <a class="repo-link" href="https://github.com/eilon1996/stock-analysis">Link to Repo</a><br/>
+    <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/stocks/stock.png" width="510" height="300"/><br/><br/>
+  </div>
+  </li>
+   
+  <li class="swiper-slide"> 
+    <div class="swiper-slide-repo-container">
+    <h3 class="single-repo-title">Modular Restaurant</h3>
+    <span class="single-repo-sub-title">A dynamic website allow restaurant owners design there own website</span><br/>
+    <div class="retaurant-reop-container">
+      <a class="repo-link" href="https://github.com/eilon1996/modular-restaurant-frontend">Frontend Repo</a><br/>
+      <a class="repo-link" href="https://github.com/eilon1996/modular-restaurant-backend">Backend Repo</a><br/>
+      <a class="repo-link" href="https://modular-restaurant-yjos2woe7-eilon1996.vercel.app/home">The Website</a><br/>
+    </div>
+    <img src="https://eilon-projects-images.s3.eu-central-1.amazonaws.com/modular-restaurant/front+page.png" width="342" height="300"/><br/><br/>
+  </div>
+  </li>
+  </ul>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-nav-btn swiper-button-prev"></div>
+  <div class="swiper-nav-btn swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
 </div>
+
+  
+  <h2><a href="www.linkedin.com/in/eilont">Linkedin</a></h2>
+
+
+
+</div>
+
+
+
 </body>
 </html>
+
+<script src="./index.js"></script>
